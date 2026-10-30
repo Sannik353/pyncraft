@@ -1,0 +1,3 @@
+'use client';
+import Link from 'next/link';export default function NotFound(){return <main className="nf"><span className="eyebrow">404 · Page not found</span><h1 className="display">This piece<br/>isn’t here.</h1><p>The page you’re looking for may have moved. Let’s find another way.</p><Link className="btn" href="/">Return home</Link><style jsx>{`.nf{min-height:75vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 20px}.nf h1{font-size:clamp(70px,11vw,120px);line-height:.82;margin:23px}.nf p{font-size:13px;color:#777;margin:0 0 25px}`}</style></main>}
+

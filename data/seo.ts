@@ -1,0 +1,55 @@
+export const pageSeo={
+  home:{title:'Custom & Handcrafted Furniture',description:'Discover custom, handcrafted furniture by Pyne Carpenter House. Thoughtful wooden beds, wardrobes, dining tables and made-to-order carpentry.',path:'/'},
+  collection:{title:'Wooden Furniture Collection',description:'Explore wooden furniture and custom designs for bedrooms, living rooms, dining spaces and everyday life. Each piece is made with care.',path:'/collection'},
+  about:{title:'Carpenter Craftsmanship & Furniture Making',description:'Learn about Pyne Carpenter House, an independent carpentry and custom furniture business focused on made-to-order pieces and careful craftsmanship.',path:'/about'},
+  contact:{title:'Furniture Enquiries & Custom Consultation',description:'Contact Pyne Carpenter House about furniture enquiries and custom furniture consultations. Start a conversation on WhatsApp.',path:'/contact'},
+  projects:{title:'Furniture Projects & Portfolio',description:'Browse demonstration furniture project concepts from Pyne Carpenter House and discuss a made-to-order piece for your space.',path:'/projects'},
+  faq:{title:'Furniture & Custom Carpentry FAQs',description:'Answers about custom furniture, wooden beds, wardrobes, materials, dimensions and how to contact Pyne Carpenter House.',path:'/faq'},
+} as const;
+
+const categorySeo:Record<string,{title:string;description:string}>= {
+  'Beds':{title:'Wooden Beds & Bedroom Furniture',description:'Explore made-to-order wooden beds and bedroom furniture by Pyne Carpenter House. Ask about sizes and dimensions for your space.'},
+  'Wardrobes':{title:'Custom Wooden Wardrobes',description:'Browse custom wooden wardrobes and made-to-order bedroom storage from Pyne Carpenter House.'},
+  'Dining Tables':{title:'Wooden Dining Tables & Dining Furniture',description:'Explore wooden dining tables and dining furniture by Pyne Carpenter House, including made-to-order table dimensions.'},
+  'Sofas':{title:'Wooden Sofas & Living Room Furniture',description:'Discover wooden sofas and considered living room furniture by Pyne Carpenter House, made to order for your space.'},
+  'Cabinets':{title:'Wooden Cabinets & Living Room Storage',description:'Explore handcrafted wooden cabinets and storage furniture by Pyne Carpenter House.'},
+  'Custom Furniture':{title:'Custom-Made Wooden Furniture',description:'Discuss made-to-order wooden furniture, custom wardrobes, cabinets and furniture projects with Pyne Carpenter House.'},
+  'Coffee Tables':{title:'Wooden Coffee Tables',description:'Explore coffee table ideas and custom living room furniture by Pyne Carpenter House.'},
+  'TV Units':{title:'Custom Wooden TV Units',description:'Explore custom wooden TV units and made-to-order living room storage by Pyne Carpenter House.'},
+  'Dressing Tables':{title:'Bedroom Dressing Tables',description:'Explore dressing tables and made-to-order bedroom furniture by Pyne Carpenter House.'},
+  'Dining Chairs':{title:'Dining Chairs & Dining Furniture',description:'Browse dining furniture ideas and discuss a made-to-order dining set with Pyne Carpenter House.'},
+  'Dining Sets':{title:'Wooden Dining Sets',description:'Explore dining set ideas and made-to-order dining furniture by Pyne Carpenter House.'},
+  'Study Tables':{title:'Wooden Study Tables & Desks',description:'Explore made-to-order wooden study tables and desks by Pyne Carpenter House.'},
+  'Office Desks':{title:'Custom Office Desks',description:'Discuss a made-to-order wooden office desk shaped around your work and space with Pyne Carpenter House.'},
+  'Bookshelves':{title:'Wooden Bookshelves & Storage',description:'Explore bookshelf and storage concepts made with natural materials by Pyne Carpenter House.'},
+  'Office Chairs':{title:'Office Chairs & Study Furniture',description:'Discuss seating and made-to-order study furniture options with Pyne Carpenter House.'},
+  'Storage Cabinets':{title:'Custom Storage Cabinets',description:'Explore made-to-order storage cabinet ideas for home and office spaces.'},
+  'Custom Wardrobes':{title:'Made-to-Order Wooden Wardrobes',description:'Discuss a custom wardrobe layout, materials and dimensions with Pyne Carpenter House.'},
+  'Custom TV Units':{title:'Custom Wooden TV Units',description:'Explore custom wooden TV units and made-to-order living room storage by Pyne Carpenter House.'},
+  'Custom Cabinets':{title:'Custom Wooden Cabinets',description:'Discuss made-to-order wooden cabinets, materials and dimensions for your space.'},
+  'Custom Furniture Projects':{title:'Custom Furniture Projects',description:'Discuss a custom furniture project and made-to-order carpentry with Pyne Carpenter House.'},
+  'King Size Beds':{title:'King Size Wooden Beds',description:'Ask Pyne Carpenter House about made-to-order king-size wooden bed dimensions and details.'},
+  'Queen Size Beds':{title:'Queen Size Wooden Beds',description:'Ask Pyne Carpenter House about made-to-order queen-size wooden bed dimensions and details.'},
+  'Single Beds':{title:'Single Wooden Beds',description:'Explore single bed ideas and discuss made-to-order wooden furniture dimensions.'},
+  'Storage Beds':{title:'Custom Storage Beds',description:'Discuss bed and storage requirements for a made-to-order bedroom furniture piece.'},
+  '2 Door Wardrobes':{title:'Two-Door Wooden Wardrobes',description:'Explore wardrobe ideas and discuss the dimensions and layout for your bedroom.'},
+  '3 Door Wardrobes':{title:'Three-Door Wooden Wardrobes',description:'Explore wardrobe ideas and discuss the dimensions and layout for your bedroom.'},
+  '4 Door Wardrobes':{title:'Four-Door Wooden Wardrobes',description:'Explore wardrobe ideas and discuss the dimensions and layout for your bedroom.'},
+  'Sliding Wardrobes':{title:'Custom Sliding Wardrobes',description:'Discuss a made-to-order wardrobe layout and dimensions for your bedroom.'},
+  '2 Seater Sofas':{title:'Two-Seater Sofas',description:'Explore sofa concepts and discuss a made-to-order piece for your living room.'},
+  '3 Seater Sofas':{title:'Three-Seater Sofas',description:'Explore sofa concepts and discuss a made-to-order piece for your living room.'},
+  'L-Shaped Sofas':{title:'L-Shaped Sofas',description:'Discuss a made-to-order sofa layout for the dimensions of your living room.'},
+  'Sofa Sets':{title:'Sofa Sets & Living Room Furniture',description:'Explore living room furniture concepts and discuss a made-to-order sofa set.'},
+  'Recliners':{title:'Recliners & Living Room Seating',description:'Explore lounge seating ideas and discuss a made-to-order piece for your living room.'},
+  'Nightstands':{title:'Wooden Nightstands & Bedside Tables',description:'Discuss a bedside table designed to complement made-to-order bedroom furniture.'},
+  'Chest of Drawers':{title:'Wooden Chest of Drawers',description:'Explore bedroom storage ideas and discuss dimensions and materials for a made-to-order piece.'},
+  'Ottomans':{title:'Ottomans & Bedroom Furniture',description:'Discuss an ottoman to complement a bedroom or living room furniture commission.'},
+  'Crockery Units':{title:'Wooden Crockery Units',description:'Explore dining room storage ideas and discuss a made-to-order crockery unit.'},
+  'Sideboards':{title:'Wooden Sideboards & Dining Storage',description:'Explore sideboard ideas and discuss materials and dimensions for your dining space.'},
+  'Custom Beds':{title:'Custom Wooden Beds',description:'Discuss made-to-order wooden bed styles and dimensions with Pyne Carpenter House.'},
+};
+
+export function collectionSeo(category?:string,subcategory?:string){
+  const topic=subcategory||category||'';
+  return categorySeo[topic]||(category?categorySeo[category]:undefined)||pageSeo.collection;
+}

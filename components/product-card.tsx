@@ -1,0 +1,4 @@
+import Link from 'next/link';import {SafeImage} from '@/components/safe-image';import {furniture,Furniture} from '@/data/furniture';
+export function ProductCard({item}:{item:Furniture}){const im=item.images[0];return <article className="product-card"><Link href={`/collection/${item.slug}`} aria-label={`View ${item.title}`}><div className="product-image"><SafeImage src={im.src} alt={im.alt} fill sizes="(max-width:760px) 50vw, 33vw" /></div><p className="eyebrow" style={{margin:'18px 0 0'}}>{item.category}</p><h3>{item.title}</h3><p className="muted" style={{fontSize:12,margin:'0 0 9px'}}>{item.material}</p><span className="eyebrow" style={{letterSpacing:'.12em'}}>View details →</span></Link></article>}
+export function ProductGrid({items=furniture}:{items?:Furniture[]}){return <div className="grid-products">{items.map(i=><ProductCard key={i.id} item={i}/>)}</div>}
+
